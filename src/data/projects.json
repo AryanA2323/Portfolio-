@@ -1,0 +1,54 @@
+[
+  {
+    "id": "krushimandi-admin",
+    "title": "Krushimandi Admin Panel",
+    "description": "Full-stack agricultural marketplace management system built for Krushimandi Innovations Pvt Ltd during internship. Features include user management, fruit listings, order monitoring, notifications, and super admin control with real-time Firebase synchronization.",
+    "stack": ["React 19","Material-UI","Firebase","Firestore","Node.js 22"],
+    "thumbnail": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=1200&auto=format&fit=crop",
+    "videoPath": "/data/Krushimandi Admin/krushimandi_admin.mp4",
+    "markdownPath": "/data/Krushimandi Admin/PORTFOLIO_DESCRIPTION.md",
+    "live": "https://krushimandiadmin.netlify.app/",
+    "github": "https://github.com/AryanA2323/krushimandiadmin",
+    "tags": ["Full-Stack", "Firebase", "Admin Dashboard"],
+    "featured": true
+  },
+  {
+    "id": "medisense-ai",
+    "title": "MediSense AI - Intelligent Healthcare Platform",
+    "description": "AI-powered healthcare web application providing symptom analysis, medicine identification, health chatbot, and medical facility discovery. Features custom ML model with 99% accuracy, OCR scanning, and 100% free architecture without API limitations.",
+    "stack": ["React 18","FastAPI","Python ML","Tesseract OCR","Firebase"],
+    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+    "videoPath": "/data/DigiMeds/MediSense AI - Your Intelligent Health Assistant - Brave 2025-11-05 18-54-10.mp4",
+    "markdownPath": "/data/DigiMeds/PORTFOLIO_DESCRIPTION.md",
+    "live": "#",
+    "github": "https://github.com/AryanA2323/MediSense-AI",
+    "tags": ["AI/ML", "Healthcare", "Full-Stack"],
+    "featured": true
+  },
+  {
+    "id": "library-management-system",
+    "title": "Library Management System",
+    "description": "Comprehensive MERN stack application for library operations with complete CRUD functionality, advanced search, book borrowing management, and cloud MongoDB Atlas integration. Features modern UI with responsive design and real-time data synchronization.",
+    "stack": ["MongoDB","Express","React 19","Node.js","Mongoose"],
+    "thumbnail": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=1200&auto=format&fit=crop",
+    "videoPath": "/data/Library Management System/LMS.mp4",
+    "markdownPath": "/data/Library Management System/PORTFOLIO_DESCRIPTION.md",
+    "live": "#",
+    "github": "https://github.com/AryanA2323/ADBMS-Mini-Project",
+    "tags": ["MERN Stack", "Cloud Database", "Full-Stack"],
+    "featured": false
+  },
+  {
+    "id": "video-summarizer-quiz",
+    "title": "Video Summarizer and Quiz Generator",
+    "description": "AI-powered educational platform transforming YouTube lectures into concise summaries, interactive quizzes, and personalized Q&A sessions. Built with Gradio and Google Gemini AI to help students learn smarter and educators assess better.",
+    "stack": ["Python","Gradio","Google Gemini AI","YouTube API","FastAPI"],
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+    "videoPath": "/data/Video_Summarizer and Quiz/video_sum.mp4",
+    "markdownPath": "/data/Video_Summarizer and Quiz/PORTFOLIO_DESCRIPTION.md",
+    "live": "#",
+    "github": "https://github.com/AryanA2323/Vedio_Summarizer",
+    "tags": ["AI/ML", "EdTech", "Python"],
+    "featured": true
+  }
+]

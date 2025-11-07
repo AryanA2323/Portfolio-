@@ -1,0 +1,4 @@
+[
+  {"id":"c1","title":"Full-Stack Web Development","platform":"Coursera","date":"Mar 2024","thumb":"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder","image":"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"},
+  {"id":"c2","title":"AI for Everyone","platform":"edX","date":"Jul 2023","thumb":"https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder","image":"https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"}
+]

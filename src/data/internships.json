@@ -1,0 +1,20 @@
+[
+  {
+    "id":"i1",
+    "company":"Krushimandi Innovations Pvt Ltd",
+    "logo":"https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=400&auto=format&fit=crop",
+    "role":"Software Development Intern",
+    "duration":"Jun 2024 - Aug 2024",
+    "description":"Designed and implemented complete admin dashboard from scratch for agricultural marketplace platform. Built real-time notification and feedback systems with role-based access control.",
+    "responsibilities": [
+      "Developed comprehensive admin panel with React 19 and Material-UI",
+      "Integrated Firebase services for backend infrastructure (Firestore, Authentication, Storage)",
+      "Created user management system for farmers and buyers with real-time updates",
+      "Implemented role-based access control for Super Admin and Admin users",
+      "Built responsive UI following Material Design guidelines",
+      "Handled CORS configuration for cloud storage and database seeding"
+    ],
+    "technologies": ["React 19", "Material-UI", "Firebase", "Firestore", "Node.js"],
+    "certificate":"#"
+  }
+]

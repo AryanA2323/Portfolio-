@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-aryan-adhav",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.9.0",
+    "framer-motion": "^10.12.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-markdown": "^9.0.0",
+    "react-router-dom": "^6.30.1",
+    "react-tsparticles": "^2.7.3",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "tsparticles": "^2.7.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.0.9"
+  }
+}

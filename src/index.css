@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#0b1020;
+  --card:#0f1724;
+  --muted:#94a3b8;
+  --accent:#00ADB5;
+}
+
+html,body,#root{height:100%}
+
+body{
+  background:var(--bg);
+  font-family: 'Poppins', ui-sans-serif, system-ui;
+}
+
+/* animated gradient background helper */
+.animated-gradient{
+  background: linear-gradient(135deg, rgba(0,173,181,0.06), rgba(187,134,252,0.06));
+  animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+/* utility for glass card */
+.glass-card{
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+}
