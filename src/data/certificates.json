@@ -1,4 +1,20 @@
 [
-  {"id":"c1","title":"Full-Stack Web Development","platform":"Coursera","date":"Mar 2024","thumb":"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder","image":"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"},
-  {"id":"c2","title":"AI for Everyone","platform":"edX","date":"Jul 2023","thumb":"https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder","image":"https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"}
+  {
+    "id": "c1",
+    "title": "Code4EdTech Hackathon 2025",
+    "platform": "Innomatics Research Labs",
+    "date": "22nd Sep 2025",
+    "description": "Secured 7th place among 150+ teams in Code4EdTech Hackathon 2025 by developing an AI-powered platform which analysis resume as per the Job description.",
+    "thumb": "/certificates/Aryan_Adhav_Certificates.pdf#page=5",
+    "image": "/certificates/Aryan_Adhav_Certificates.pdf#page=5"
+  },
+  {
+    "id": "c2",
+    "title": "MongoDB for SQL Professionals",
+    "platform": "MongoDB University",
+    "date": "26th Sep 2025",
+    "description": "Completed comprehensive MongoDB course for SQL professionals, covering NoSQL database concepts, MongoDB architecture, queries, and data modeling.",
+    "thumb": "/certificates/MongoDB_Certificate.pdf",
+    "image": "/certificates/MongoDB_Certificate.pdf"
+  }
 ]
