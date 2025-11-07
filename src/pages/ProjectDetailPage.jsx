@@ -14,6 +14,7 @@ export default function ProjectDetailPage(){
   
   const [markdownContent, setMarkdownContent] = useState('')
   const [loading, setLoading] = useState(true)
+  const [videoError, setVideoError] = useState(false)
 
   useEffect(() => {
     if (project?.markdownPath) {
@@ -108,14 +109,30 @@ export default function ProjectDetailPage(){
         <div className="mb-10">
           <h2 className="text-2xl font-bold mb-4">Project Demo</h2>
           <div className="glass-card p-4 rounded-lg">
-            <video
-              controls
-              className="w-full rounded-lg"
-              poster={project.thumbnail}
-            >
-              <source src={project.videoPath} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            {videoError ? (
+              <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 text-center">
+                <p className="text-yellow-400 mb-2">⚠️ Video failed to load</p>
+                <p className="text-sm text-slate-400">Large video files may take time to load from GitHub LFS.</p>
+                <a 
+                  href={project.videoPath} 
+                  download
+                  className="inline-block mt-3 px-4 py-2 bg-accent text-black rounded-lg font-semibold hover:scale-105 transition"
+                >
+                  Download Video
+                </a>
+              </div>
+            ) : (
+              <video
+                controls
+                preload="metadata"
+                className="w-full rounded-lg bg-black"
+                poster={project.thumbnail}
+                onError={() => setVideoError(true)}
+              >
+                <source src={project.videoPath} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
           </div>
         </div>
       )}
