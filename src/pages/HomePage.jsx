@@ -90,27 +90,34 @@ export default function HomePage(){
           <div className="glass-card p-6 rounded-lg">
             <div className="flex justify-between items-start mb-2">
               <div>
-                <h3 className="text-xl font-semibold">Bachelor of Technology in Computer Science</h3>
-                <p className="text-accent">XYZ University</p>
+                <h3 className="text-xl font-semibold">B.E in Information Technology</h3>
+                <p className="text-accent">JSPM's Jaywantrao Sawant College of Engineering, Pune (JSCOE)</p>
               </div>
-              <span className="text-slate-400 text-sm">2020 - 2024</span>
+              <span className="text-slate-400 text-sm">2024 - Present</span>
             </div>
-            <p className="text-slate-300 mt-2">CGPA: 8.5/10</p>
-            <p className="text-slate-400 text-sm mt-2">
-              Relevant Coursework: Data Structures, Algorithms, Database Management, Web Development, Machine Learning
-            </p>
+            <p className="text-slate-300 mt-2">Last Sem CGPA: 8.4</p>
           </div>
 
           <div className="glass-card p-6 rounded-lg">
             <div className="flex justify-between items-start mb-2">
               <div>
-                <h3 className="text-xl font-semibold">Senior Secondary (XII)</h3>
-                <p className="text-accent">ABC High School</p>
+                <h3 className="text-xl font-semibold">Diploma in Computer Science</h3>
+                <p className="text-accent">JSPM's Bhivrabai Sawant Polytechnic, Wagholi</p>
               </div>
-              <span className="text-slate-400 text-sm">2019 - 2020</span>
+              <span className="text-slate-400 text-sm">2021 - 2024</span>
             </div>
-            <p className="text-slate-300 mt-2">Percentage: 92%</p>
-            <p className="text-slate-400 text-sm mt-2">Stream: Science (PCM + Computer Science)</p>
+            <p className="text-slate-300 mt-2">Marks: 90%</p>
+          </div>
+
+          <div className="glass-card p-6 rounded-lg">
+            <div className="flex justify-between items-start mb-2">
+              <div>
+                <h3 className="text-xl font-semibold">Schooling (1st - 10th Standard)</h3>
+                <p className="text-accent">Dr. Mrs. Erin N Nagarwala Day School</p>
+              </div>
+              <span className="text-slate-400 text-sm">-</span>
+            </div>
+            <p className="text-slate-300 mt-2">Marks: 83%</p>
           </div>
         </div>
       </section>
