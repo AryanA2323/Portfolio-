@@ -1,0 +1,205 @@
+<svg class="parallax" viewBox="0 0 750 500" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a55867" />
+      <stop offset="1" stop-color="#e0a27d" />
+    </linearGradient>
+    <radialGradient id="bg_grad" cx="375" cy="-30" r="318.69" gradientUnits="userSpaceOnUse">
+      <stop id="sun" offset="0.1" stop-color="#F5C54E" />
+      <stop offset="0.1" stop-color="#FFDBA6" />
+      <stop offset="0" stop-color="#F7BB93" />
+      <stop offset="0" stop-color="#F2995E" />
+      <stop offset="0" stop-color="#f07560" />
+      <stop offset="0.8" stop-color="#FFAB93" />
+    </radialGradient>
+    <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbd93" />
+      <stop offset="1" stop-color="#c46976" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffb8bd" />
+      <stop offset="1" stop-color="#914d64" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#70375a" />
+      <stop offset="1" stop-color="#8a6e95" />
+    </linearGradient>
+    <linearGradient id="grad5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#433d6c" />
+      <stop offset="1" stop-color="#392e54" />
+    </linearGradient>
+    <linearGradient id="grad6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2850" />
+      <stop offset="1" stop-color="#563a6a" />
+    </linearGradient>
+    <linearGradient id="grad7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1b38" />
+      <stop offset="1" stop-color="#383263" />
+    </linearGradient>
+    <linearGradient id="grad8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e0a1a" />
+      <stop offset="1" stop-color="#201f3f" />
+    </linearGradient>
+    <linearGradient id="grad9" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120e22" />
+      <stop offset="1" stop-color="#221d42" />
+    </linearGradient>
+    <linearGradient id="lg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2c50" />
+      <stop offset="1" stop-color="#434375" />
+    </linearGradient>
+    <linearGradient id="lg5" x1="0" y1="0" x2="0" y2="1" href="#lg4" />
+    <linearGradient id="lg6" x1="0" y1="0" x2="0" y2="1" href="#lg4" />
+    <linearGradient id="lg7" x1="0" y1="0" x2="0" y2="1" href="#lg4" />
+    <linearGradient id="lg8" x1="0" y1="0" x2="0" y2="1" href="#lg4" />
+    <radialGradient id="bg2-grad" cx="365" cy="500" r="631.74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9bb5" />
+      <stop offset="0.12" stop-color="#d96a90" />
+      <stop offset="0.33" stop-color="#8d4f9b" />
+      <stop offset="0.55" stop-color="#3a2d64" />
+      <stop offset="0.78" stop-color="#151223" />
+    </radialGradient>
+    <radialGradient id="fstar-grad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.72" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fd75a8" />
+      <stop offset="1" stop-color="#5a2d81" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="1" x2="1" y2="0" href="#linear-gradient" />
+    <linearGradient id="linear-gradient-3" x1="0" y1="0" x2="1" y2="0" href="#linear-gradient" />
+    <linearGradient id="linear-gradient-4" x1="0" y1="0" x2="1" y2="0" href="#linear-gradient" />
+  </defs>
+
+  <rect id="bg" width="750" height="500" fill="url(#bg_grad)" opacity="0.88" />
+
+  <g id="clouds" fill="#fff7f2">
+    <path id="cloud1" transform="translate(-600 0)" d="M165 260c12-16 40-18 56-4 10-14 35-14 46 1 16-8 38-8 51 9 16-8 40-4 46 10H165z" />
+    <path id="cloud2" transform="translate(-600 0)" d="M506 230c15-15 43-15 60 0 10-7 24-7 36 4 12-6 29-4 40 7H506z" />
+    <path id="cloud3" transform="translate(600 0)" d="M98 356c16-18 45-20 63-6 12-18 38-18 50 0 13-10 31-10 44 4 12-7 27-7 41 5H98z" />
+    <path id="cloud4" transform="translate(600 0)" d="M430 320c14-12 35-13 49-3 12-11 31-9 40 4 14-9 33-7 45 8 12-8 28-6 38 4H430z" />
+  </g>
+
+  <g id="scene2">
+    <g id="bats" style="opacity:0" fill="#112129">
+      <path d="M466 188c8-9 15-6 21 0-8 2-15 4-21 0z" />
+      <path d="M390 227c10-7 20-7 30 0-10 5-20 5-30 0z" />
+      <path d="M424 151c12-7 24-7 36 0-12 5-24 5-36 0z" />
+      <path d="M500 223c12-9 24-8 36 0-12 6-24 6-36 0z" />
+      <path d="M458 282c14-8 28-8 42 0-14 7-28 7-42 0z" />
+    </g>
+    <g id="hills2">
+      <path id="h2-6" d="M520 420c40-8 98-35 136-55 32 14 50 18 94 16v66H520z" fill="url(#lg4)" />
+      <path id="h2-5" d="M0 390c36-15 115-10 170-38 36 0 70 36 125 82L210 500H0z" fill="url(#lg5)" />
+      <path id="h2-4" d="M245 448c82-20 124-67 188-95 68-28 119-10 178 36 34 16 89 30 132 38l-32 64H385z" fill="url(#lg6)" />
+      <path id="h2-3" d="M0 420c100 0 151-15 212-53 43-25 73-36 111-8 53 37 117 54 268 74l-58 52L0 500z" fill="url(#lg7)" />
+      <path id="h2-2" d="M0 409c49-7 90-8 131 9 32 12 68-4 124-18 48-12 84-3 124 9 58 18 109 12 150-5 34 10 65 15 97 13V500H0z" fill="url(#lg8)" />
+      <path id="h2-1" style="opacity:0" d="M0 372c64-28 118-32 191-25 46 4 98 10 154-5 56-14 109-31 164-26 53 5 104 30 151 52l90 27V500H0z" fill="#1d1d3a" />
+    </g>
+  </g>
+
+  <g id="scene3" style="visibility:hidden">
+    <rect id="bg2" y="-59.8" width="750" height="612.4" transform="translate(750 492.8) rotate(180)" fill="url(#bg2-grad)" />
+    <g id="fstar">
+      <path d="M695 65l8 20 21 2-16 13 5 20-18-10-18 10 5-20-16-13 21-2z" fill="#fff" opacity="0.9" />
+      <circle cx="700" cy="92" r="39.39" fill="url(#fstar-grad)" style="mix-blend-mode:overlay" />
+    </g>
+    <g id="stars" fill="#fff" style="opacity:0">
+      <path d="M700 128l2 2-2 2-2-2z" />
+      <path d="M644 38l2 2-2 2-2-2z" />
+      <path d="M666 139l2 2-2 2-2-2z" />
+      <path d="M636 77l2 2-2 2-2-2z" />
+      <path d="M714 31l2 2-2 2-2-2z" />
+      <path d="M725 27l2 2-2 2-2-2z" />
+      <path d="M468 65l2 2-2 2-2-2z" />
+      <path d="M710 97l2 2-2 2-2-2z" />
+      <path d="M711 170l2 2-2 2-2-2z" />
+      <path d="M678 261l2 2-2 2-2-2z" />
+      <path d="M731 209l2 2-2 2-2-2z" />
+      <path d="M447 235l2 2-2 2-2-2z" />
+      <path d="M523 200l2 2-2 2-2-2z" />
+      <path d="M625 168l2 2-2 2-2-2z" />
+      <path d="M563 139l2 2-2 2-2-2z" />
+      <path d="M372 87l2 2-2 2-2-2z" />
+      <path d="M473 35l2 2-2 2-2-2z" />
+      <path d="M399 28l2 2-2 2-2-2z" />
+      <path d="M449 193l2 2-2 2-2-2z" />
+      <path d="M617 121l2 2-2 2-2-2z" />
+      <path d="M560 26l2 2-2 2-2-2z" />
+      <path d="M680 161l2 2-2 2-2-2z" />
+      <path d="M559 230l2 2-2 2-2-2z" />
+      <path d="M693 250l2 2-2 2-2-2z" />
+      <path d="M617 202l2 2-2 2-2-2z" />
+      <path d="M545 224l2 2-2 2-2-2z" />
+      <path d="M451 74l2 2-2 2-2-2z" />
+      <path d="M446 202l2 2-2 2-2-2z" />
+      <path d="M186 237l2 2-2 2-2-2z" />
+      <path d="M291 199l2 2-2 2-2-2z" />
+      <path d="M153 248l2 2-2 2-2-2z" />
+      <path d="M114 222l2 2-2 2-2-2z" />
+      <path d="M155 152l2 2-2 2-2-2z" />
+      <path d="M200 279l2 2-2 2-2-2z" />
+      <path d="M55 250l2 2-2 2-2-2z" />
+      <path d="M167 270l2 2-2 2-2-2z" />
+      <path d="M166 191l2 2-2 2-2-2z" />
+      <path d="M186 124l2 2-2 2-2-2z" />
+      <path d="M672 114l2 2-2 2-2-2z" />
+      <path d="M631 65l2 2-2 2-2-2z" />
+      <path d="M30 149l2 2-2 2-2-2z" />
+      <path d="M104 110l2 2-2 2-2-2z" />
+      <path d="M108 183l2 2-2 2-2-2z" />
+      <path d="M77 174l2 2-2 2-2-2z" />
+      <path d="M77 79l2 2-2 2-2-2z" />
+      <path d="M239 207l2 2-2 2-2-2z" />
+      <path d="M598 191l2 2-2 2-2-2z" />
+      <path d="M510 87l2 2-2 2-2-2z" />
+      <path d="M286 238l2 2-2 2-2-2z" />
+      <path d="M253 230l2 2-2 2-2-2z" />
+    </g>
+    <g id="hills3" transform="translate(0 -110)">
+      <g id="info2">
+        <polygon id="arrow2" points="395.5 482.2 393.4 484.3 375.2 466.1 357 484.3 354.9 482.2 375.2 461.9 395.5 482.2" fill="#fff" stroke="#231f20" stroke-width=".5" />
+        <path id="text2" d="M270 520h210v12H270z" fill="#fff" stroke="#231f20" stroke-width=".5" />
+      </g>
+      <path id="h3-5" d="M756 330l-218 114-66 47h284z" fill="url(#linear-gradient)" style="mix-blend-mode:multiply" />
+      <path id="h3-4" d="M0 330l96 15 58 23 51-10 92 74 88 36 68 3 4 20H0z" fill="url(#linear-gradient-2)" style="mix-blend-mode:multiply" />
+      <path id="h3-3" d="M58 489c24-20 84-66 115-73 22 0 49-9 77-13 34 30 74 45 119 88H58z" fill="url(#linear-gradient-3)" style="mix-blend-mode:multiply" />
+      <path id="h3-2" d="M195 491c36 0 66-14 93-31 32 4 61-10 97-33 24 5 68 6 126-3 47 5 66 3 219 7v60H195z" fill="url(#linear-gradient-4)" style="mix-blend-mode:multiply" />
+      <g id="h3-1" fill="#281c46">
+        <path d="M0 292c35 63 98 95 163 137 39-4 74 27 101 46 35-8 73-31 106-37 38 19 68 49 109 37 24-7 51-22 73-22l92-111 112-71v220H0z" />
+        <g id="dinoL" style="fill:#fff;opacity:.2">
+          <path d="M38 479c8-7 24-9 39-2 11 5 16 14 11 20-8 6-39 4-52-4-9-5-9-10 2-14z" />
+        </g>
+        <g id="dinoR" style="fill:#fff;opacity:.2">
+          <path d="M694 458c17-11 41-12 49-2 5 7-1 15-14 19-17 5-40 2-44-7-2-4 1-7 9-10z" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <g id="scene1">
+    <g id="hills1">
+      <path id="cloudStart-L" style="fill:#fff;opacity:0" d="M35 108c14-18 39-18 54-5 9-11 27-11 37 0 11-8 27-7 38 4H35z" />
+      <path id="cloudStart-R" style="fill:#fff;opacity:0" d="M560 106c18-22 48-24 66-8 14-18 39-16 54 2 13-11 33-9 44 6H560z" />
+      <path id="cloudsBig-L" d="M-2 173c78 18 142 60 174 116 22-11 55-7 77 11 21-14 52-12 71 8 16-11 37-9 49 7v20C259 343 113 346-2 335z" style="fill:#fff;opacity:.5" />
+      <path id="cloudsBig-R" d="M797 100l27 180c-103 16-217 40-332 44 15-22 43-34 68-26 14-22 42-30 66-19 14-24 44-39 77-29 10-18 36-27 53-17 12-20 29-31 41-33z" style="fill:#fff;opacity:.5" />
+      <path id="h1-9" d="M75 409V337c50-2 90-27 128-46 47-23 75 7 109 43 26 28 40 23 70 6 12-6 29 4 42 6 27 5 52-6 75-16 31-13 43 2 70 10 31 9 57-2 84-4 16-1 29 0 43-4V409H75z" fill="url(#grad1)" />
+      <path id="h1-8" d="M242 500c42-54 130-172 140-172 16 1 31 2 47-2 17-4 31-15 48-20 30-10 60-11 90-21 25-9 46-33 67-52 38-35 77-45 116-20V500H242z" fill="url(#grad2)" />
+      <path id="h1-7" d="M185 500c144-77 455-245 482-266 27-21 56-21 83 5V500H185z" fill="url(#grad3)" />
+      <path id="h1-6" d="M-7 277c76 30 157 3 207 61 22 26 50 43 84 51 21 5 39 3 61 20 35 27 82 42 117 49 43 9 88 18 140 42v13H12z" fill="url(#grad4)" />
+      <path id="h1-5" d="M1 369c49-8 71-35 108-36 27 0 52 10 77 21 17 7 39 10 58 18 14 6 24 20 38 26 28 13 46 42 59 95H1V369z" fill="url(#grad5)" />
+      <path id="h1-4" d="M157 500c46-37 121-105 134-112 12-5 19-16 31-23 10-7 22-13 32-19 22-13 31-13 54-20 32-9 58-34 92-52 17-9 30 10 46 14 17 4 33-13 49-1 30 22 51 28 78 43 26 15 55 34 78 57V500H157z" fill="url(#grad6)" />
+      <g id="info">
+        <polygon id="arrow" points="353.93 368.91 356.06 366.79 374.26 385 392.47 366.79 394.59 368.91 374.26 389.24 353.93 368.91" fill="#fff" stroke="#231f20" stroke-width="0.5" />
+        <path id="text" d="M250 328h250v24H250z" fill="#fff" stroke="#231f20" stroke-width="0.5" />
+      </g>
+      <path id="bird" style="opacity:0" d="M62 404c20 9 31 25 42 33 8 6 17 5 17 8 0 4-17 4-28 0-18-7-33-25-36-34-3-6 1-10 5-7z" fill="#16122b" />
+      <path id="h1-3" d="M309 500c21-51 49-48 84-79 17-15 47-16 68-26 27-12 54-14 81-1 24 12 36 36 58 39V500H309z" fill="url(#grad7)" />
+      <path id="h1-2" d="M0 377c34 1 82-20 112-43 34-26 70 15 107 28 31 11 63 24 95 22 26-1 44 18 72 23 32 5 58-7 88-5 38 3 75 23 102 17 39-9 60-26 94-24 28 2 51 6 82-3V500H0z" fill="url(#grad8)" />
+      <path id="h1-1" d="M0 321c37-18 86-39 135-41 53-1 102 19 148 52 16 11 32 19 48 22 33 8 67-2 97-16 38-17 71-43 116-44 36-1 68 20 98 38 31 18 65 23 109 12v156H0V321z" fill="url(#grad9)" />
+    </g>
+  </g>
+</svg>
+
+<div class="scrollElement"></div>

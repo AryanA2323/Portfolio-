@@ -1,36 +1,175 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
 
-:root{
-  --bg:#0b1020;
-  --card:#0f1724;
-  --muted:#94a3b8;
-  --accent:#00ADB5;
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Grotesk", sans-serif;
 }
 
-html,body,#root{height:100%}
-
-body{
-  background:var(--bg);
-  font-family: 'Poppins', ui-sans-serif, system-ui;
+:root {
+  --color-bg: #09090b;
+  /* zinc-950 */
+  --color-accent: #6366f1;
+  /* Indigo */
+  --color-accent-glow: rgba(99, 102, 241, 0.4);
+  --glass-surface: rgba(24, 24, 27, 0.4);
+  /* zinc-900 */
+  --glass-border: rgba(255, 255, 255, 0.05);
 }
 
-/* animated gradient background helper */
-.animated-gradient{
-  background: linear-gradient(135deg, rgba(0,173,181,0.06), rgba(187,134,252,0.06));
-  animation: gradientMove 12s ease infinite;
+body {
+  background-color: var(--color-bg);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-@keyframes gradientMove{
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+/* Atmospheric background */
+.atmosphere {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background:
+    radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(255, 156, 104, 0.08) 0%, transparent 50%);
+  filter: blur(80px);
+  z-index: 1;
+  pointer-events: none;
 }
 
-/* utility for glass card */
-.glass-card{
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.04);
-  backdrop-filter: blur(6px);
+.glass-panel {
+  background: var(--glass-surface);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #fff, #a5b4fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heading-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.04em;
+}
+
+.parallax-site-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.parallax-stage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.parallax-stage svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.parallax-fallback-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.parallax-stage .scrollElement {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.parallax-site-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(7, 7, 14, 0.2) 0%, rgba(7, 7, 14, 0.38) 40%, rgba(6, 6, 12, 0.58) 100%);
+}
+
+.story-section {
+  position: relative;
+  z-index: 10;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1000px;
+}
+
+.section-surface {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 2rem;
+  background: rgba(10, 10, 18, 0.38);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.22);
+}
+
+.story-hero {
+  min-height: calc(100vh - 8rem);
+  justify-content: center;
+  padding: clamp(2rem, 5vw, 4rem);
+  content-visibility: visible;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  /* zinc-800 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+  /* zinc-700 */
+}
+
+@media (max-width: 640px) {
+  .section-surface {
+    border-radius: 1.4rem;
+  }
+
+  .story-hero {
+    min-height: calc(100vh - 7rem);
+    padding: 1.5rem;
+  }
+
+  .parallax-stage #text,
+  .parallax-stage #arrow,
+  .parallax-stage #info2 {
+    transform-origin: 50% 50%;
+    transform: translateY(-120px) scale(0.8);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
